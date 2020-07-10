@@ -305,7 +305,7 @@ app.post("/question06_nn", auth, async (req, res) => {
             name: req.user.name,
             message: "Wrong Answer",
             question: function () {
-                return "question06";
+                return "question06_nn";
             },
         });
     }
